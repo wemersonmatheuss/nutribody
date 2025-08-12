@@ -9,7 +9,7 @@ export function Nav() {
         <nav className={styles.container}>
             <img src={logo} alt="Logo da D'Castillá-Vie" />
             
-            <Button title="Quero emagrecer agora"/>
+            <Button name="Quero emagrecer agora!"/>
         </nav>
     )
 }
