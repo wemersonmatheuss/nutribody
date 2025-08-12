@@ -1,0 +1,17 @@
+.container {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 30px 120px;
+
+    background: var(--color-neutral);
+}
+
+.container img {
+    width: 85px;
+    height: auto;
+}
