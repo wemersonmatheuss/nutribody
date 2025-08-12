@@ -1,0 +1,39 @@
+.container {
+    width: 100%;
+    height: auto;
+
+    padding: 30px 120px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background: var(--color-neutral);
+}
+
+.container .description {
+    width: 575px;
+}
+
+.container .description h1 {
+    font-size: 48px;
+    font-weight: 600;
+
+    line-height: 110%;
+}
+
+.container .description p {
+    font-size: 18px;
+    font-weight: 400;
+
+    margin-top: 24px;
+}
+
+.container .description button {
+    margin-top: 32px;
+}
+
+.container .image img {
+    width: 400px;
+    height: auto;
+}
