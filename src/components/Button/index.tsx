@@ -1,11 +1,11 @@
 import styles from "./styles.module.css"
 
 type Props = React.ButtonHTMLAttributes<HTMLButtonElement> & {
-    name: string
+    title: string;
 }
 
-export function Button({ name, ...rest}: Props) {
+export function Button({ title, ...rest}: Props) {
     return (
-        <button className={styles.container} {...rest}> {name} </button>
+        <button className={styles.container} {...rest}> {title} </button>
     )
 }
