@@ -1,7 +1,9 @@
+import {} from "./global.css"
+
 export function App() {
   return (
     <div>
-      <h1>Olá</h1>
+      <h1>ola</h1>
     </div>
   )
 }

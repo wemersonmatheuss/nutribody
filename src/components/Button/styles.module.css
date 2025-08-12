@@ -1,0 +1,12 @@
+.container {
+    padding: 20px 47px;
+
+    font-size: 20px;
+    font-weight: 600;
+
+    color: var(--color-text);
+    background: var(--color-destak);
+
+    border: none;
+    border-radius: 50px;
+}
