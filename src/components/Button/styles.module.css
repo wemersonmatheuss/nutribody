@@ -11,4 +11,12 @@
     border-radius: 50px;
 
     cursor: pointer;
+
+    transition: opacity, transform 0.3s ease-in-out;
+}
+
+.container:hover {
+    opacity: 0.9;
+
+    transform: scale(0.95);
 }
