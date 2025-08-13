@@ -1,0 +1,36 @@
+.container {
+    width: 100%;
+    height: auto;
+
+    padding: 72px 120px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background: var(--color-neutral);
+}
+
+.container .image img {
+    width: 560px;
+    height: auto;
+}
+
+.container .infos {
+    width: 560px;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.container .infos h2 {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.container .infos p {
+    font-size: 20px;
+    font-weight: 400;
+}
