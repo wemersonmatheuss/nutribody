@@ -20,6 +20,8 @@
     font-weight: 600;
 
     line-height: 110%;
+
+    color: var(--color-text);
 }
 
 .container .description p {
@@ -27,6 +29,8 @@
     font-weight: 400;
 
     margin-top: 24px;
+
+    color: var(--color-text);
 }
 
 .container .description button {
