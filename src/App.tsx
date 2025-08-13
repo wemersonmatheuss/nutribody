@@ -8,6 +8,9 @@ import { CardDestak } from "./components/CardDestak"
 import fire from "./assets/svg/fire.svg"
 import ray from "./assets/svg/ray.svg"
 import noFood from "./assets/svg/noFood.svg"
+import chemistry from "./assets/svg/chemistry.svg"
+import shield from "./assets/svg/shield.svg"
+import leaf from "./assets/svg/leaf.svg"
 
 import logo from "./assets/nutribodyImage.jpg"
 
@@ -15,7 +18,9 @@ export function App() {
   return (
     <div>
       <Nav/>
+      
       <Main/>
+      
       <Differential
       title="Por que usar o D'Castillá-Vie NutriBody"
       
@@ -33,6 +38,7 @@ export function App() {
 
       titleButton="Quero todos os benefícios"
       />
+      
       <CardDestak 
       title="O que é o D’Castilla-Vie NutriBody?"
       
@@ -41,6 +47,24 @@ export function App() {
       titleButton="Quero emagrecer com saúde"
 
       img={logo}
+      />
+
+      <Differential 
+      title="Diferenciais"
+      
+      img1={chemistry}
+      name1="Fórmula premium"
+      description1="Desenvolvido com tecnologia de ponta e ingredientes selecionados para máxima eficácia no controle de peso"
+
+      img2={shield}
+      name2="Aprovado pela ANVISA"
+      description2="Segurança e qualidade garantidas, produzido em laboratórios totalmente regularizados"
+
+      img3={leaf}
+      name3="Ativos naturais"
+      description3="Combinação poderosa de nutrientes essenciais e compostos naturais, sem substâncias proibidas"
+
+      titleButton="Quero todos os diferenciais"
       />
     </div>
   )
