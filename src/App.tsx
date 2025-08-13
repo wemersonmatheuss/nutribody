@@ -66,6 +66,15 @@ export function App() {
 
       titleButton="Quero todos os diferenciais"
       />
+
+      <CardDestak
+      title="Diferente de outros, o D’Castillá-Vie NutriBody não provoca queda capilar"
+      description="Enquanto muitos suplementos emagrecedores causam efeitos colaterais como queda de cabelo, o D’Castillá-Vie NutriBody foi desenvolvido com tecnologia de ponta para preservar sua saúde e autoestima durante o processo de emagrecimento."
+
+      titleButton="Quero emagrecer com saúde"
+
+      img={logo}
+      />
     </div>
   )
 }
