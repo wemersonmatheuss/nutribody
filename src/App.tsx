@@ -4,6 +4,7 @@ import { Nav } from "./components/Nav"
 import { Main } from "./components/Main"
 import { Differential } from "./components/Differential"
 import { CardDestak } from "./components/CardDestak"
+import { Testimonials } from "./components/Testimonials"
 
 import fire from "./assets/svg/fire.svg"
 import ray from "./assets/svg/ray.svg"
@@ -11,7 +12,6 @@ import noFood from "./assets/svg/noFood.svg"
 import chemistry from "./assets/svg/chemistry.svg"
 import shield from "./assets/svg/shield.svg"
 import leaf from "./assets/svg/leaf.svg"
-
 import logo from "./assets/nutribodyImage.jpg"
 
 export function App() {
@@ -75,6 +75,8 @@ export function App() {
 
       img={logo}
       />
+
+      <Testimonials/>
     </div>
   )
 }

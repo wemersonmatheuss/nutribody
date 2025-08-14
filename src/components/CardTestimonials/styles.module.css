@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+    width: 379px;
+    height: auto;
+}
+
+.container .star {
+    display: flex;
+    gap: 3px;
+}
+
+.container .star img {
+    width: 20px;
+    height: 20px;
+}
+
+.container .text p {
+    font-size: 16px;
+    font-weight: 500;
+
+    color: var(--color-text);
+}
+
+.container .person {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.container .person img {
+    width: 40px;
+    height: 40px;
+
+    border-radius: 50px;
+}
+
+.container .person h3 {
+    font-size: 18px;
+    font-weight: 600;
+
+    color: var(--color-text);
+}
+
+.container .person p {
+    font-size: 16px;
+    font-weight: 400;
+
+    color: var(--color-text);
+}
