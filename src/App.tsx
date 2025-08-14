@@ -5,6 +5,7 @@ import { Main } from "./components/Main"
 import { Differential } from "./components/Differential"
 import { CardDestak } from "./components/CardDestak"
 import { Testimonials } from "./components/Testimonials"
+import Faq from "./components/Faq"
 
 import fire from "./assets/svg/fire.svg"
 import ray from "./assets/svg/ray.svg"
@@ -77,6 +78,18 @@ export function App() {
       />
 
       <Testimonials/>
+
+      <CardDestak
+      title="Afinal, quem é a D’Castillá-Vie?"
+      
+      description="A D’Castilla-Vie é uma marca criada para elevar sua beleza, confiança e sua história. Oferecemos experiências científicas e sensoriais que une o que há de mais avançado em tecnologia dermocosmética com o glamour e o luxo que você merece. Acreditamos que o verdadeiro luxo é sentir-se bem consigo mesmo(a). Por isso, nossa linha é desenvolvida com tecnologias inovadoras, ativos exclusivos e rigorosos padrões de qualidade, garantindo resultados visíveis, seguros e eficazes."
+
+      titleButton="Quero emagrecer com saúde"
+
+      img={logo}
+      />
+
+      <Faq/>
     </div>
   )
 }
