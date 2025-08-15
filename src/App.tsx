@@ -7,6 +7,7 @@ import { CardDestak } from "./components/CardDestak"
 import { Testimonials } from "./components/Testimonials"
 import Faq from "./components/Faq"
 import { Cta } from "./components/Cta"
+import { Footer } from "./components/Footer"
 
 import fire from "./assets/svg/fire.svg"
 import ray from "./assets/svg/ray.svg"
@@ -93,6 +94,9 @@ export function App() {
       <Faq/>
 
       <Cta/>
+
+      <Footer/>
+
     </div>
   )
 }
