@@ -6,7 +6,7 @@ import imgNutriBody from "../../assets/nutribodyImage.jpg"
 
 export function Main() {
     return (
-        <div className={styles.container}>
+        <div className={styles.container} id="initial">
             <div className={styles.description}>
                 <h1>Queime gordura, ganhe energia e transforme seu corpo. Comece hoje!</h1>
                 

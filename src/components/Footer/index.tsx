@@ -14,24 +14,11 @@ export function Footer() {
                     <div className={styles.navigation}>
                         <h3>Navegação rápida</h3>
                         <div className={styles.linksNavigation}>
-                            <a href="">Início</a>
-                            <a href="">Sobre</a>
-                            <a href="">Diferencial</a>
-                            <a href="">Por que usar?</a>
+                            <a href="#initial">Início</a>
+                            <a href="#pqusar">Por que usar?</a>
+                            <a href="#differential">Diferencial</a>
+                            <a href="#faq">Perguntas frequentes</a>
                         </div>
-                    </div>
-
-                    <div className={styles.promotion}>
-                        <div className={styles.title}>
-                            <h3>Receba promoções</h3>
-                            <p>Deixe seu e-mail e receba todas as promoções que surgirem</p>
-                        </div>
-
-                        <div className={styles.submit}>
-                                <input type="email" placeholder="Digite seu melho e-mail" />
-                                <button>Enviar</button>
-                        </div>
-                        
                     </div>
                 </div>
 
@@ -40,7 +27,7 @@ export function Footer() {
             <div className={styles.line}></div>
 
             <div className={styles.footerBottom}>
-                <a href="">Desenvolvido por Wemerson | Dev</a>
+                <a href="https://www.instagram.com/wemersonmth/" target="_blank" rel="noopener">Desenvolvido por Wemerson | Dev</a>
                 <p>© 2025 . Todos os direitos reservados.</p>
             </div>
         </footer>

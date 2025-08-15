@@ -18,11 +18,13 @@ type Props = {
     description3: string;
 
     titleButton: string;
+
+    id?: string
 }
 
-export function Differential({ title, img1, name1, description1, img2, name2, description2, img3, name3, description3, titleButton }: Props) {
+export function Differential({ id, title, img1, name1, description1, img2, name2, description2, img3, name3, description3, titleButton }: Props) {
     return (
-        <section className={styles.container}>
+        <section className={styles.container} id={id}>
             <div className={styles.title}>
                 <h2>{title}</h2>
             </div>

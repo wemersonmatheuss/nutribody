@@ -40,6 +40,8 @@ export function App() {
       description3="Acaba com as tentações e mantém sua dieta no caminho certo, sem sofrer com a fome fora de hora."
 
       titleButton="Quero todos os benefícios"
+
+      id="pqusar"
       />
       
       <CardDestak 
@@ -68,6 +70,8 @@ export function App() {
       description3="Combinação poderosa de nutrientes essenciais e compostos naturais, sem substâncias proibidas"
 
       titleButton="Quero todos os diferenciais"
+
+      id="differential"
       />
 
       <CardDestak
