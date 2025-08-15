@@ -15,7 +15,9 @@ import noFood from "./assets/svg/noFood.svg"
 import chemistry from "./assets/svg/chemistry.svg"
 import shield from "./assets/svg/shield.svg"
 import leaf from "./assets/svg/leaf.svg"
-import logo from "./assets/nutribodyImage.jpg"
+import logoNutriBody from "./assets/nutribodyImage.jpg"
+import logoDcastillavie from "./assets/svg/logoDcastillaVie.svg"
+import hairLoss from "./assets/hairLoss.png"
 
 export function App() {
   return (
@@ -51,7 +53,7 @@ export function App() {
       
       titleButton="Quero emagrecer com saúde"
 
-      img={logo}
+      img={logoNutriBody}
       />
 
       <Differential 
@@ -80,7 +82,7 @@ export function App() {
 
       titleButton="Quero emagrecer com saúde"
 
-      img={logo}
+      img={hairLoss}
       />
 
       <Testimonials/>
@@ -92,7 +94,7 @@ export function App() {
 
       titleButton="Quero emagrecer com saúde"
 
-      img={logo}
+      img={logoDcastillavie}
       />
 
       <Faq/>

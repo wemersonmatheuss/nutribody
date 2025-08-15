@@ -1,6 +1,6 @@
 import styles from "./styles.module.css"
 
-import logo from "../../assets/svg/logoNutriBody.svg"
+import logo from "../../assets/svg/logoDcastillaVie.svg"
 
 export function Footer() {
     return (
