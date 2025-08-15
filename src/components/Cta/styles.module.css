@@ -1,0 +1,43 @@
+.container {
+    width: 100%;
+    height: auto;
+
+    background: var(--color-neutral);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding-block: 72px;
+}
+
+.container .cta {
+    width: 770px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container .cta h2 {
+    font-size: 48px;
+    font-weight: 600;
+    
+    text-align: center;
+
+    color: var(--color-text);
+}
+
+.container .cta p {
+    font-size: 18px;
+    font-weight: 500;
+
+    text-align: center;
+
+    color: var(--color-text);
+}
+
+.container .cta button {
+    margin-top: 20px;
+}
