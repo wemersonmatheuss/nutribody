@@ -68,3 +68,9 @@
         font-size: 38px;
     }
 }
+
+@media screen and (max-width: 769px) {
+    .container {
+        padding: 30px;
+    }
+}

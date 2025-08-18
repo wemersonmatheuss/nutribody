@@ -86,3 +86,10 @@
 .container .footerBottom a {
     color: #f62626;
 }
+
+
+@media screen and (max-width: 769px) {
+    .container {
+        padding: 30px;
+    }
+}

@@ -92,3 +92,9 @@
       padding-block: 50px;
     }
 }
+
+@media screen and (max-width: 769px) {
+  .container .title {
+    padding-inline: 30px;
+  }
+}

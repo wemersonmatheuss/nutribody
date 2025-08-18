@@ -47,3 +47,13 @@
         font-size: 30px;
     }
 }
+
+@media screen and (max-width: 769px) {
+    .container {
+        padding: 30px;
+    }
+
+    .container .cta {
+        width: 100%;
+    }
+}
