@@ -73,3 +73,17 @@
         font-size: 30px;
     }
 }
+
+@media screen and (max-width: 441px) {
+    .container .title h2 {
+        font-size: 25px;
+    }
+
+    .container .infos .info img {
+        width: 48px;
+    }
+
+    .container .infos .info h3 {
+        font-size: 20px;
+    }
+}

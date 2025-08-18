@@ -57,3 +57,17 @@
         width: 100%;
     }
 }
+
+@media screen and (max-width: 441px) {
+    .container {
+        padding: 20px;
+    }
+
+    .container .cta h2 {
+        font-size: 25px;
+    }
+
+    .container .cta p {
+        font-size: 16px;
+    }   
+}

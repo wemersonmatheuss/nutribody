@@ -33,3 +33,19 @@
         padding: 30px;
     }
 }
+
+@media screen and (max-width: 441px) {
+    .container {
+        padding: 20px;
+        justify-content: center;
+    }
+
+    .container button {
+        display: none;
+    }
+
+    .container img {
+        width: auto;
+        height: 71px;
+    }
+}

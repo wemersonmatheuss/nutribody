@@ -74,3 +74,31 @@
         padding: 30px;
     }
 }
+
+@media screen and (max-width: 441px) {
+    .container {
+        padding: 20px;
+
+        flex-direction: column;
+        gap: 35px;
+    }
+
+    .container .description {
+        width: 100%;
+
+        text-align: center;
+    }
+
+    .container .description h1 {
+        font-size: 35px;
+    }
+
+    .container .description p {
+        font-size: 16px;
+    }
+
+    .container .image img {
+        width: 300px;
+        height: auto;
+    }
+}

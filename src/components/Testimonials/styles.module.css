@@ -33,6 +33,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     gap: 32px;
 }
 
@@ -45,5 +46,20 @@
 @media screen and (max-width: 769px) {
     .container {
         padding: 30px;
+    }
+}
+
+@media screen and (max-width: 441px) {
+    .container {
+        padding: 20px;
+        align-items: center;
+    }
+
+    .container .title h2 {
+        font-size: 25px;
+    }
+
+    .container .title p {
+        font-size: 14px;
     }
 }
