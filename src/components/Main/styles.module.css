@@ -43,3 +43,10 @@
     width: 400px;
     height: auto;
 }
+
+@media screen and (max-width: 1281px) {
+    .container .image img {
+        width: 350px;
+        height: auto;
+    }
+}
