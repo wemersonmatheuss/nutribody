@@ -23,6 +23,8 @@
 .container .infos {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 48px;
 }
 
@@ -56,4 +58,18 @@
 
 .container button {
     font-size: 18px;
+}
+
+@media screen and (max-width: 1001px) {
+    .container {
+        padding-block: 50px;
+    }
+    
+    .container .infos {
+        gap: 15px;
+    }
+
+    .container .title h2 {
+        font-size: 30px;
+    }
 }

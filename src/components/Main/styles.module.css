@@ -45,8 +45,26 @@
 }
 
 @media screen and (max-width: 1281px) {
+    .container {
+        padding: 30px 100px;
+    }
+    
     .container .image img {
         width: 350px;
         height: auto;
+    }
+}
+
+@media screen and (max-width: 1001px) {
+    .container {
+        padding: 30px 50px;
+    }
+
+    .container .description {
+        width: 50%;
+    }
+
+    .container .description h1 {
+        font-size: 38px;
     }
 }

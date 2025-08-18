@@ -20,3 +20,9 @@
 
     transform: scale(0.95);
 }
+
+@media screen and (max-width: 885px) {
+    .container {
+        font-size: 18px;
+    }
+}

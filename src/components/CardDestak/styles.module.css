@@ -36,8 +36,35 @@
 }
 
 @media screen and (max-width: 1281px) {
+    .container {
+        padding: 72px 100px;
+    }
+
     .container .image img {
         width: 400px;
         height: auto;
     }   
+}
+
+@media screen and (max-width: 1001px) {
+    .container {
+        padding: 62px 50px;
+    }
+
+    .container .infos {
+        width: 50%;
+    }
+
+    .container .image img {
+        width: 300px;
+        height: auto;
+    }
+
+    .container .infos h2 {
+        font-size: 30px;
+    }
+
+    .container .infos p {
+        font-size: 18px;
+    }
 }
